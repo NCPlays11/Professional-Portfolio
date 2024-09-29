@@ -63,7 +63,7 @@ def start_game():
                 p.goto(0,-280)
                 b.move_speed =0.1
                 b.ball_bounce_y()
-            if p.ycor() - 19 <= b.ycor() <= p.ycor() + 19 and p.xcor() - 55 <= b.xcor() <= p.xcor() + 55 and b.ycor()>-285: ###  paddle hit check
+            if p.ycor() - 19 <= b.ycor() <= p.ycor() + 19 and p.xcor() - 55 <= b.xcor() <= p.xcor() + 55 and b.ycor()>-285:
                 paddle_middle = p.xcor()
                 if b.xcor() < paddle_middle-8:
 
