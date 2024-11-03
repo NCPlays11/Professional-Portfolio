@@ -76,6 +76,8 @@ class TypingSpeedTestApp:
         self.result_label.config(text=result_message)
 
         messagebox.showinfo("Typing Test Results", result_message)
+        time.sleep(5)
+        root.destroy()    
 
 if __name__ == "__main__":
     root = tk.Tk()
