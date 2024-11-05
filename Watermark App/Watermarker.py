@@ -41,7 +41,7 @@ root.title("Photo Watermark App")
 canvas = tk.Canvas(root, width=600, height=500)
 canvas.grid(columnspan=5, rowspan=4)
  
-logo = Image.open("logo.jpeg")
+logo = Image.open("logo.jpg")
 logo = logo.resize((200, 200))
 logo = ImageTk.PhotoImage(logo)
 logo_label = tk.Label(image=logo)
